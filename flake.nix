@@ -3,6 +3,10 @@
   inputs = { };
 
   outputs = { self }: {
+    templates.gleam = {
+      path = ./gleam;
+      description = "Gleam dev template";
+    };
     templates.python = {
       path = ./python;
       description = "Python dev template";
