@@ -24,9 +24,14 @@
               docker
               docker-compose
 
+              # Measure isolate optimize
               hyprfine
               dhat
               cargo-flamegraph
+
+              # Async
+              tokio-console
+              oha
             ];
             RUST_SRC_PATH = rustPlatform.rustLibSrc;
           };
