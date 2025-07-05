@@ -3,6 +3,10 @@
   inputs = { };
 
   outputs = { self }: {
+    templates.default = {
+      path = ./default;
+      description = "Default dev template";
+    };
     templates.gleam = {
       path = ./gleam;
       description = "Gleam dev template";
