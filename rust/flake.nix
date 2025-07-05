@@ -23,6 +23,10 @@
               rustPackages.clippy
               docker
               docker-compose
+
+              hyprfine
+              dhat
+              cargo-flamegraph
             ];
             RUST_SRC_PATH = rustPlatform.rustLibSrc;
           };
