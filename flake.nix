@@ -15,5 +15,9 @@
       path = ./rust;
       description = "Rust dev template";
     };
+    templates.surreal_rust = {
+      path = ./surreal_rust;
+      description = "Surreal + Rust dev template";
+    };
   };
 }
