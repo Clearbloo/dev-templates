@@ -7,5 +7,9 @@
       path = ./default;
       description = "Default dev template";
     };
+    templates.python = {
+      path = ./python;
+      description = "Python dev template";
+    };
   };
 }
