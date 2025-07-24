@@ -23,5 +23,9 @@
       path = ./gleam;
       description = "Gleam dev template";
     };
+    templates.zig = {
+      path = ./zig;
+      description = "Zig dev template";
+    };
   };
 }
