@@ -11,5 +11,9 @@
       path = ./python;
       description = "Python dev template";
     };
+    templates.rust = {
+      path = ./rust;
+      description = "Rust dev template";
+    };
   };
 }
