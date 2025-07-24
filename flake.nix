@@ -19,5 +19,9 @@
       path = ./surreal_rust;
       description = "Surreal + Rust dev template";
     };
+    templates.gleam = {
+      path = ./gleam;
+      description = "Gleam dev template";
+    };
   };
 }
