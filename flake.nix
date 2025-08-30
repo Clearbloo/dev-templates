@@ -23,6 +23,10 @@
       path = ./gleam;
       description = "Gleam dev template";
     };
+    templates.go = {
+      path = ./go;
+      description = "Go dev template";
+    };
     templates.zig = {
       path = ./zig;
       description = "Zig dev template";
