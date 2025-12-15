@@ -1,7 +1,7 @@
 {
   description = "Python dev flake";
 
-  inputs = { nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05"; };
+  inputs = { nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11"; };
 
   outputs = { self, nixpkgs }:
     let forAllSystems = nixpkgs.lib.genAttrs [ "aarch64-linux" "x86_64-linux" ];
