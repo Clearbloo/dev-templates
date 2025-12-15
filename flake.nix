@@ -8,6 +8,10 @@
         path = ./default;
         description = "Default dev template";
       };
+      ruby = {
+        path = ./ruby;
+        description = "Ruby dev template";
+      };
       nim = {
         path = ./nim;
         description = "Nim dev template";
